@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 20px;
+    background-color: rgb(57, 197, 44);
+
+}
+.grid-contaner{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+
+}
+.grid-item{
+    background-color: rgb(9, 228, 27);
+    padding: 20px;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 5px;
+    
+}
+h1{
+    text-align: center;
+    color: greenyellow;
+
+}
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px rgba(221, 16, 16, 0.863);
+    text-align: center;
+}
+.tranform{
+    transition: transform 0.3s ease;
+
+}
+.tranform:hover {
+    transform: scale(1.05);
+}
